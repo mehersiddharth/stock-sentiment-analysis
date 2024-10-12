@@ -1,7 +1,7 @@
 # Stock Sentiment Analysis
 
 
-This project analyzes the sentiment around Tesla (TSLA) by scraping Reddit posts from the popular subreddit r/wallstreetbets.  It aims to correlate the online sentiment with Tesla’s historical stock price using various data visualizations and sentiment analysis techniques.
+This project analyzes the sentiment around a stock. I have used "Tesla" (TSLA), by scraping Reddit posts from the popular subreddit r/wallstreetbets.  It aims to correlate the online sentiment with Tesla’s historical stock price using various data visualizations and sentiment analysis techniques.
 
 # Project Overview
 
@@ -22,7 +22,7 @@ Saves sentiment results to a CSV file for further analysis.
 Visualizes the frequency of mentions and sentiment trends over time.
 Correlates sentiment with Tesla's historical stock price data using heatmaps and time-series plots.
 
-## Installation and Setup
+# Installation and Setup
 
 ### Dependencies
 To run this project, you need the following Python libraries:
@@ -90,7 +90,6 @@ Update the client_id, client_secret, and user_agent in the code with your Reddit
 Run the Script:
 
 Run the script to scrape Reddit, analyze sentiment, and fetch stock data.  
-Visualizations will be displayed automatically, and CSV files will be generated.  
 
  After setting up, run the code blocks to:  
  1. Scrape Reddit posts  
@@ -102,9 +101,11 @@ Visualizations will be displayed automatically, and CSV files will be generated.
 reddit_stock_data.csv: Contains scraped Reddit data (post title, text, upvotes, created_at).  
 reddit_stock_sentiment.csv: Contains sentiment analysis results (positive, neutral, negative).  
 his_stock_data.csv: Historical stock data for Tesla (TSLA) (2019-2024).  
+
+
 Visualizations: The script generates visualizations like sentiment trends and correlation heatmaps.  
 
-## Visualization Examples
+## Visualization 
 Frequency of Mentions: Number of times "TSLA" was mentioned in Reddit posts over time.  
 Sentiment Trends: Rolling 7-day average for positive, negative, and neutral sentiments.  
 Correlation Heatmaps: Shows the relationship between stock price changes and sentiment trends.  
