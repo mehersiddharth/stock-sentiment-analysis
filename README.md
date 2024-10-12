@@ -59,26 +59,26 @@ Update the following lines in the code with your credentials:
 
 ### 2. Scraping Reddit Posts:
    
-The script queries up to 1,000 posts from the r/wallstreetbets subreddit mentioning "TSLA".
-Extracts the title, text, upvotes, and created_at of each post.
-Saves the data to a CSV file: reddit_stock_data.csv.
+The script queries up to 1,000 posts from the r/wallstreetbets subreddit mentioning "TSLA".  
+Extracts the title, text, upvotes, and created_at of each post.  
+Saves the data to a CSV file: reddit_stock_data.csv.  
 
 ### 3. Perform Sentiment Analysis:
    
-The script uses VADER to analyze the sentiment of each post and classifies them as Positive, Neutral, or Negative.
-Results are saved to reddit_stock_sentiment.csv.
+The script uses VADER to analyze the sentiment of each post and classifies them as Positive, Neutral, or Negative.  
+Results are saved to reddit_stock_sentiment.csv.  
 
 ### 4. Fetch Historical Stock Data:
    
-Retrieves Tesla (TSLA) stock price data from 2019 to the present using the yfinance API.
-The stock data is saved in his_stock_data.csv.
+Retrieves Tesla (TSLA) stock price data from 2019 to the present using the yfinance API.  
+The stock data is saved in his_stock_data.csv.  
 
 ### 5. Correlation and Visualization:
    
-The script generates insightful visualizations:
-Frequency of mentions of TSLA over time.
-7-day rolling average of sentiment trends.
-Heatmaps showing correlations between stock price changes and sentiment.
+The script generates insightful visualizations:   
+Frequency of mentions of TSLA over time.  
+7-day rolling average of sentiment trends.  
+Heatmaps showing correlations between stock price changes and sentiment.  
 
 
 # How to Run the Project
@@ -89,25 +89,25 @@ Update the client_id, client_secret, and user_agent in the code with your Reddit
 
 Run the Script:
 
-Run the script to scrape Reddit, analyze sentiment, and fetch stock data.
-Visualizations will be displayed automatically, and CSV files will be generated.
+Run the script to scrape Reddit, analyze sentiment, and fetch stock data.  
+Visualizations will be displayed automatically, and CSV files will be generated.  
 
- After setting up, run the code blocks to:
- 1. Scrape Reddit posts
- 2. Perform sentiment analysis
- 3. Fetch historical stock data
- 4. Visualize correlations
+ After setting up, run the code blocks to:  
+ 1. Scrape Reddit posts  
+ 2. Perform sentiment analysis  
+ 3. Fetch historical stock data  
+ 4. Visualize correlations  
     
 ##  Files and Outputs
-reddit_stock_data.csv: Contains scraped Reddit data (post title, text, upvotes, created_at).
-reddit_stock_sentiment.csv: Contains sentiment analysis results (positive, neutral, negative).
-his_stock_data.csv: Historical stock data for Tesla (TSLA) (2019-2024).
-Visualizations: The script generates visualizations like sentiment trends and correlation heatmaps.
+reddit_stock_data.csv: Contains scraped Reddit data (post title, text, upvotes, created_at).  
+reddit_stock_sentiment.csv: Contains sentiment analysis results (positive, neutral, negative).  
+his_stock_data.csv: Historical stock data for Tesla (TSLA) (2019-2024).  
+Visualizations: The script generates visualizations like sentiment trends and correlation heatmaps.  
 
 ## Visualization Examples
-Frequency of Mentions: Number of times "TSLA" was mentioned in Reddit posts over time.
-Sentiment Trends: Rolling 7-day average for positive, negative, and neutral sentiments.
-Correlation Heatmaps: Shows the relationship between stock price changes and sentiment trends.
+Frequency of Mentions: Number of times "TSLA" was mentioned in Reddit posts over time.  
+Sentiment Trends: Rolling 7-day average for positive, negative, and neutral sentiments.  
+Correlation Heatmaps: Shows the relationship between stock price changes and sentiment trends.  
 
 
  ## Conclusion
