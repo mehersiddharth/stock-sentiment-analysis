@@ -1,4 +1,4 @@
- Stock Sentiment Analysis
+# Stock Sentiment Analysis
 
 
 This project analyzes the sentiment around Tesla (TSLA) by scraping Reddit posts from the popular subreddit r/wallstreetbets.  It aims to correlate the online sentiment with Tesla’s historical stock price using various data visualizations and sentiment analysis techniques.
