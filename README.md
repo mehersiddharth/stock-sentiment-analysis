@@ -1,13 +1,13 @@
  Stock Sentiment Analysis
 
 
-This project analyzes the sentiment around Tesla (TSLA) by scraping Reddit posts from the popular subreddit r/wallstreetbets. It aims to correlate the online sentiment with Tesla’s historical stock price using various data visualizations and sentiment analysis techniques.
+This project analyzes the sentiment around Tesla (TSLA) by scraping Reddit posts from the popular subreddit r/wallstreetbets.  It aims to correlate the online sentiment with Tesla’s historical stock price using various data visualizations and sentiment analysis techniques.
 
 # Project Overview
 
 ## Data Collection:
 
-Scrapes Reddit posts mentioning TSLA using the Reddit API.
+Scrapes Reddit posts mentioning TSLA using the Reddit API.  
 Extracts key information such as the post title, text, upvotes, and creation time.
 
 
@@ -27,11 +27,11 @@ Correlates sentiment with Tesla's historical stock price data using heatmaps and
 ### Dependencies
 To run this project, you need the following Python libraries:
 
-praw - For scraping Reddit data.
-vaderSentiment - For sentiment analysis.
-yfinance - For fetching stock market data.
-pandas - For data manipulation.
-matplotlib & seaborn - For plotting and visualizations.
+praw - For scraping Reddit data.  
+vaderSentiment - For sentiment analysis.  
+yfinance - For fetching stock market data.  
+pandas - For data manipulation.  
+matplotlib & seaborn - For plotting and visualizations.  
 
 ### Install all dependencies with:
 '''pip install praw vaderSentiment yfinance pandas matplotlib seaborn'''
